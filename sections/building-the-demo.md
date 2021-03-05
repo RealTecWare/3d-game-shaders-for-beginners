@@ -45,7 +45,8 @@ g++ \
   -std=gnu++11 \
   -O2 \
   -I/usr/include/python2.7/ \
-  -I/usr/include/panda3d/
+  -I/usr/include/panda3d/ \
+  -I/usr/include/eigen3/
 ```
 
 With the object file created, create the executable by linking the object file to its dependencies.
